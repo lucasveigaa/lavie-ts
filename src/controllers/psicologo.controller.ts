@@ -1,6 +1,6 @@
 import { Psicologos } from "../models/psicologos"; 
 import { Request, Response} from "express";
-const bcrypt = require("bcryptjs");
+import bcrypt from "bcryptjs"
 
 export const PsicologoController = {
   async create(req: Request, res: Response) {
